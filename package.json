@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethancahill/Employee-Tracker.git"
+  },
+  "author": "Ethan Cahill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethancahill/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/ethancahill/Employee-Tracker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
