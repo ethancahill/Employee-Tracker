@@ -23,7 +23,7 @@ class db {
         return this.connection.promise().query(`INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES (?,?,?,?)`, params)
     };
     changeEmployee(params) {
-        return this.connection.promise().query(`UPDATE employees set role_id = ? WHERE id = ?`,)
+        return this.connection.promise().query(`UPDATE employees set role_id = ? WHERE id = ?`, params)
     }
 }
 
