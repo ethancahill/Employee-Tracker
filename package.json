@@ -13,7 +13,7 @@
     "url": "git+https://github.com/ethancahill/Employee-Tracker.git"
   },
   "author": "Ethan Cahill",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethancahill/Employee-Tracker/issues"
   },
