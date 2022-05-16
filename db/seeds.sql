@@ -6,12 +6,12 @@ VALUES
 
 INSERT INTO roles (title, salary, department_id)
 VALUES 
-    ('Recruiter', 55713.00, 1),
-    ('Human Resource Manager', 71,320.00, 1),
-    ('Salesman', 63212.00, 2),
-    ('Sales Manager', 89241.00, 2),
-    ('IT Technician', 65312.00, 3),
-    ('IT Manager', 94212.00, 3);
+    ('Recruiter', 55713, 1),
+    ('Human Resource Manager', 71320, 1),
+    ('Salesman', 63212, 2),
+    ('Sales Manager', 89241, 2),
+    ('IT Technician', 65312, 3),
+    ('IT Manager', 94212, 3);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
